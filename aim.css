@@ -1,0 +1,66 @@
+/* Testimonials */
+.testimonials {
+    background-color: #f8f9fa;
+}
+
+.testimonial-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial-item h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.testimonial-item p {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Call-to-Action */
+.call-to-action {
+    position: relative;
+    background: url("https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 7rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.call-to-action .overlay {
+    position: absolute;
+    background-color: #80878e;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+form {
+    position: relative;
+    z-index: 2;
+}
+
+.form-control {
+    background-color: #fff;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0099ff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #007acc;
+}
